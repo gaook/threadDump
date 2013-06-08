@@ -8,7 +8,7 @@ static int hello_init(void)
     printk(KERN_ERR"Thread back trace dump!!!\n");
     {
         struct task_struct *g, *p;
-        
+        //print unsleeping thread first
         printk(KERN_ERR"Threads unsleeping...\n");
         do_each_thread(g, p) {
             if(p->state == TASK_INTERRUPTIBLE)
