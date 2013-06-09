@@ -2,7 +2,7 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 #include <linux/sched.h>
-
+// this version is for add kernel version
 static int hello_init(void)
 {
     printk(KERN_ERR"Thread back trace dump!!!\n");
