@@ -2,7 +2,7 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 #include <linux/sched.h>
-
+// this version is for kernel 2.6.35.11
 static int hello_init(void)
 {
     printk(KERN_ERR"Thread back trace dump!!!\n");
