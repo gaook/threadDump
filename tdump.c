@@ -5,7 +5,7 @@
 
 // this version is for add kernel version
 
-// this version is for kernel 2.6.35.11
+// this version is for kernel 2.6.35.11 for sth
 //modify 001
 //fix bug one
 static int hello_init(void)
