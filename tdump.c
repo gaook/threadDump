@@ -2,7 +2,12 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 #include <linux/sched.h>
+
 // this version is for add kernel version
+
+// this version is for kernel 2.6.35.11
+//modify 001
+>>>>>>> for2.6
 static int hello_init(void)
 {
     printk(KERN_ERR"Thread back trace dump!!!\n");
