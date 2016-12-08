@@ -10,6 +10,8 @@
 //fix bug one
 //modify 002
 //fix bug two
+//modify 003
+//add comment one
 static int hello_init(void)
 {
     printk(KERN_ERR"Thread back trace dump!!!\n");
