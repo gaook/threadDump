@@ -37,6 +37,9 @@ static int hello_init(void)
     return 0;
 }
 
+//modify 004
+//add debug msg one
+
 static void hello_exit(void)
 {
     printk(KERN_ERR"Out out \n");
